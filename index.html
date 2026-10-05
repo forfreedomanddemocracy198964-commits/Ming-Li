@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>我的网站</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+   <a href="index.html" class="site-brand">
+
+    <span class="site-name" id="site-name">
+        我的网站
+    </span>
+
+    <span class="site-author">
+        Made by Ming Li
+    </span>
+
+</a>
+
+    <div class="header-right">
+
+        <nav>
+            <a href="index.html" id="nav-home">首页</a>
+            <a href="main.html#articles" id="nav-articles">文章</a>
+            <a href="main.html#resources" id="nav-resources">资料</a>
+            <a href="about.html" id="nav-about">关于</a>
+        </nav>
+
+        <button id="language-button"
+                onclick="changeLanguage()">
+            English
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <!-- =========================
+         首页第一屏
+    ========================== -->
+
+    <section class="home-hero">
+
+        <!-- 左上角口号 -->
+
+        <div class="corner-slogan">
+            <span class="corner-line"></span>
+
+            <p id="slogan-text">
+                打倒习近平，打倒共产党！
+            </p>
+        </div>
+
+
+        <!-- 中央 -->
+
+        <div class="hero-content">
+
+            <p class="hero-label">
+                FREEDOM · DEMOCRACY
+            </p>
+
+            <h1 id="main-title">
+                自由 · 民主 · 人权 · 法治
+            </h1>
+
+            <p class="main-description"
+               id="main-description">
+                记录事实，表达观点，提供资料与信息。
+            </p>
+
+            <a href="main.html"
+               class="primary-button"
+               id="learn-more">
+                了解更多
+            </a>
+
+        </div>
+
+
+        <!-- 往下滚按钮 -->
+
+        <a href="#introduction"
+           class="scroll-button"
+           aria-label="继续向下">
+
+            <span class="scroll-button-text">
+                SCROLL
+            </span>
+
+            <span class="scroll-arrow">
+                ↓
+            </span>
+
+        </a>
+
+    </section>
+
+
+    <!-- =========================
+         第二屏
+    ========================== -->
+
+    <section class="home-introduction reveal"
+             id="introduction">
+
+        <div class="home-introduction-inner">
+
+            <p class="section-label">
+                ABOUT THIS PROJECT
+            </p>
+
+            <h2 id="intro-title">
+                我们为什么建立这个网站？
+            </h2>
+
+            <div class="small-line"></div>
+
+            <p id="intro-text">
+                我们希望通过资料、文章与公开信息，
+                关注自由、民主、人权与法治，
+                并为读者提供可以进一步了解相关议题的内容。
+            </p>
+
+            <a href="main.html"
+               class="text-link">
+                继续了解
+                <span>→</span>
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>了解更多</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <a href="index.html" class="site-brand">
+
+        <span class="site-name" id="site-name">
+            我的网站
+        </span>
+
+        <span class="site-author">
+            Made by Ming Li
+        </span>
+
+    </a>
+
+    <div class="header-right">
+
+        <nav>
+            <a href="index.html" id="nav-home">首页</a>
+            <a href="#articles" id="nav-articles">文章</a>
+            <a href="#resources" id="nav-resources">资料</a>
+            <a href="about.html" id="nav-about">关于</a>
+        </nav>
+
+        <button id="language-button"
+                onclick="changeLanguage()">
+            English
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <!-- =========================
+         MAIN 第一屏
+    ========================== -->
+
+    <section class="explore-hero">
+
+        <div class="explore-content">
+
+            <p class="hero-label">
+                HISTORY · ARTICLES · RESOURCES
+            </p>
+
+            <h1 id="explore-title">
+                了解更多
+            </h1>
+
+            <div class="hero-divider"></div>
+
+            <p id="explore-description">
+                阅读历史专题、文章与公开资料，
+                了解那些值得被记录、讨论与记住的事件。
+            </p>
+
+        </div>
+
+
+        <a href="#position"
+           class="scroll-button">
+
+            <span class="scroll-button-text">
+                EXPLORE
+            </span>
+
+            <span class="scroll-arrow">
+                ↓
+            </span>
+
+        </a>
+
+    </section>
+
+
+    <!-- =========================
+         本站立场
+    ========================== -->
+
+    <section class="position-section reveal"
+             id="position">
+
+        <div class="content-container narrow">
+
+            <p class="section-label light-label">
+                OUR POSITION
+            </p>
+
+            <h2 id="position-title">
+                本站立场
+            </h2>
+
+            <div class="white-line"></div>
+
+            <p id="position-p1">
+                本站反对中国共产党的一党统治，
+                反对政治压迫、信息审查以及对基本自由的限制。
+            </p>
+
+            <p id="position-p2">
+                我们支持自由、民主、人权与法治，
+                支持公民表达政治观点、批评政府、
+                获取信息以及参与公共事务的权利。
+            </p>
+
+            <p id="position-p3">
+                在香港、台湾、西藏与新疆等议题上，
+                本站支持当地人民表达自身政治意愿
+                与决定自身未来的权利。
+            </p>
+
+            <strong id="position-ending"
+                    class="position-ending">
+                为自由发声，为民主发声。
+            </strong>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         历史专题
+    ========================== -->
+
+    <section class="content-section reveal"
+             id="topics">
+
+        <div class="content-container">
+
+            <p class="section-label">
+                HISTORY
+            </p>
+
+            <h2 id="topics-title">
+                历史专题
+            </h2>
+
+            <p class="section-intro"
+               id="topics-description">
+                从具体历史事件开始了解。
+                专题将整理事件经过、时间线、
+                历史资料与相关来源。
+            </p>
+
+
+            <div class="topic-list">
+
+                <a href="cultural-revolution.html"
+                   class="topic-row topic-link">
+
+                    <div>
+
+                        <span class="topic-type">
+                            1966 — 1976
+                        </span>
+
+                        <h3 id="topic-cr">
+                            文化大革命
+                        </h3>
+
+                    </div>
+
+                    <span class="topic-status ready"
+                          id="topic-cr-status">
+                        阅读专题 →
+                    </span>
+
+                </a>
+
+
+                <div class="topic-row">
+
+                    <div>
+
+                        <span class="topic-type">
+                            1989
+                        </span>
+
+                        <h3 id="topic-1989">
+                            1989年北京抗议与六四事件
+                        </h3>
+
+                    </div>
+
+                    <span class="topic-status"
+                          id="topic-1989-status">
+                        即将推出
+                    </span>
+
+                </div>
+
+
+                <div class="topic-row">
+
+                    <div>
+
+                        <span class="topic-type">
+                            1958 — 1962
+                        </span>
+
+                        <h3 id="topic-leap">
+                            大跃进与大饥荒
+                        </h3>
+
+                    </div>
+
+                    <span class="topic-status"
+                          id="topic-leap-status">
+                        即将推出
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         地区议题
+    ========================== -->
+
+    <section class="content-section white-section reveal"
+             id="regions">
+
+        <div class="content-container">
+
+            <p class="section-label">
+                REGIONS
+            </p>
+
+            <h2 id="regions-title">
+                地区与政治议题
+            </h2>
+
+            <p class="section-intro"
+               id="regions-description">
+                香港、台湾、西藏与新疆相关的历史、
+                政治、人权与社会议题将分别整理。
+            </p>
+
+
+<div class="topic-list">
+
+
+    <!-- 香港 -->
+
+    <div class="topic-row">
+
+        <div>
+
+            <span class="topic-type">
+                HONG KONG
+            </span>
+
+            <h3 id="region-hk">
+                香港
+            </h3>
+
+        </div>
+
+        <span class="topic-status"
+              id="region-hk-status">
+            即将推出
+        </span>
+
+    </div>
+
+
+
+    <!-- 台湾 -->
+
+    <a href="taiwan.html"
+       class="topic-row topic-link">
+
+        <div>
+
+            <span class="topic-type">
+                TAIWAN
+            </span>
+
+            <h3 id="region-taiwan">
+                台湾 · 民主与自决
+            </h3>
+
+        </div>
+
+        <span class="topic-status ready"
+              id="region-taiwan-status">
+            阅读专题 →
+        </span>
+
+    </a>
+
+
+
+    <!-- 西藏 -->
+
+    <div class="topic-row">
+
+        <div>
+
+            <span class="topic-type">
+                TIBET
+            </span>
+
+            <h3 id="region-tibet">
+                西藏
+            </h3>
+
+        </div>
+
+        <span class="topic-status"
+              id="region-tibet-status">
+            即将推出
+        </span>
+
+    </div>
+
+
+
+    <!-- 新疆 -->
+
+ <a href="xinjiang.html"
+   class="topic-row topic-link">
+
+    <div>
+
+        <span class="topic-type">
+            XINJIANG
+        </span>
+
+        <h3 id="region-xinjiang">
+            新疆 · 维吾尔人与人权
+        </h3>
+
+    </div>
+
+    <span class="topic-status ready"
+          id="region-xinjiang-status">
+        阅读专题 →
+    </span>
+
+</a>
+
+
+</div>
+
+        </div>
+
+    </section>
+
+
+<!-- =========================
+     宗教议题
+========================== -->
+
+    <section class="content-section reveal"
+             id="religion">
+
+        <div class="content-container">
+
+            <p class="section-label">
+                RELIGION · FREEDOM OF BELIEF
+            </p>
+
+            <h2 id="religion-title">
+                宗教议题
+            </h2>
+
+            <p class="section-intro"
+               id="religion-description">
+                关注中国境内的宗教与信仰自由，
+                记录受到国家压制、限制或迫害的宗教与信仰群体，
+                并整理相关政策、历史事件、人权报告、个案与公开资料。
+            </p>
+
+
+         <!-- 基督教 -->
+
+<a href="christianity.html"
+   class="topic-row topic-link">
+
+    <div>
+
+        <span class="topic-type">
+            CHRISTIANITY
+        </span>
+
+        <h3 id="religion-main-title">
+            基督教
+        </h3>
+
+    </div>
+
+    <span class="topic-status ready"
+          id="religion-main-status">
+        阅读专题 →
+    </span>
+
+</a>
+
+                <!-- 天主教 -->
+
+                <div class="topic-row">
+
+                    <div>
+
+                        <span class="topic-type">
+                            CATHOLICISM
+                        </span>
+
+                        <h3 id="religion-catholicism">
+                            天主教与地下教会
+                        </h3>
+
+                    </div>
+
+                    <span class="topic-status"
+                          id="religion-catholicism-status">
+                        即将推出
+                    </span>
+
+                </div>
+
+
+                <!-- 伊斯兰教 -->
+
+                <div class="topic-row">
+
+                    <div>
+
+                        <span class="topic-type">
+                            ISLAM
+                        </span>
+
+                        <h3 id="religion-islam">
+                            伊斯兰教与维吾尔穆斯林
+                        </h3>
+
+                    </div>
+
+                    <span class="topic-status"
+                          id="religion-islam-status">
+                        即将推出
+                    </span>
+
+                </div>
+
+
+                <!-- 藏传佛教 -->
+
+                <div class="topic-row">
+
+                    <div>
+
+                        <span class="topic-type">
+                            TIBETAN BUDDHISM
+                        </span>
+
+                        <h3 id="religion-tibetan">
+                            藏传佛教
+                        </h3>
+
+                    </div>
+
+                    <span class="topic-status"
+                          id="religion-tibetan-status">
+                        即将推出
+                    </span>
+
+                </div>
+
+
+                <!-- 法轮功 -->
+
+                <div class="topic-row">
+
+                    <div>
+
+                        <span class="topic-type">
+                            FALUN GONG
+                        </span>
+
+                        <h3 id="religion-falungong">
+                            法轮功
+                        </h3>
+
+                    </div>
+
+                    <span class="topic-status"
+                          id="religion-falungong-status">
+                        即将推出
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         文章
+    ========================== -->
+
+    <section class="content-section white-section reveal"
+             id="articles">
+
+        <div class="content-container">
+
+            <p class="section-label">
+                ARTICLES
+            </p>
+
+            <h2 id="articles-title">
+                文章与观点
+            </h2>
+
+            <p class="section-intro"
+               id="articles-description">
+                关于历史、自由、民主、人权、
+                法治与公共事务的文章和观点。
+            </p>
+
+
+            <div class="article-list">
+
+                <div class="article-row">
+
+                    <span id="article-one-type">
+                        历史
+                    </span>
+
+                    <strong id="article-one-title">
+                        为什么有些历史不能被遗忘？
+                    </strong>
+
+                </div>
+
+
+                <div class="article-row">
+
+                    <span id="article-two-type">
+                        自由与民主
+                    </span>
+
+                    <strong id="article-two-title">
+                        为什么社会需要允许人们批评权力？
+                    </strong>
+
+                </div>
+
+
+                <div class="article-row">
+
+                    <span id="article-three-type">
+                        政治制度
+                    </span>
+
+                    <strong id="article-three-title">
+                        为什么政治权力需要受到制约？
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <p class="coming-text"
+               id="articles-coming">
+                更多文章即将推出
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         资料
+    ========================== -->
+
+    <section class="content-section reveal"
+             id="resources">
+
+        <div class="content-container">
+
+            <p class="section-label">
+                DOCUMENTS · ARCHIVES
+            </p>
+
+            <h2 id="resources-title">
+                资料与档案
+            </h2>
+
+            <p class="section-intro"
+               id="resources-description">
+                这里将整理历史档案、公开文件、
+                研究报告、新闻报道、照片与影像资料。
+            </p>
+
+
+            <div class="resource-grid">
+
+                <div class="resource-item">
+
+                    <strong id="resource-history">
+                        历史档案
+                    </strong>
+
+                    <p id="resource-history-text">
+                        历史事件、时间线与公开记录
+                    </p>
+
+                </div>
+
+
+                <div class="resource-item">
+
+                    <strong id="resource-rights">
+                        人权资料
+                    </strong>
+
+                    <p id="resource-rights-text">
+                        人权报告、公民权利与相关记录
+                    </p>
+
+                </div>
+
+
+                <div class="resource-item">
+
+                    <strong id="resource-censorship">
+                        审查与信息控制
+                    </strong>
+
+                    <p id="resource-censorship-text">
+                        网络、媒体与言论自由相关资料
+                    </p>
+
+                </div>
+
+
+                <div class="resource-item">
+
+                    <strong id="resource-reports">
+                        国际报告
+                    </strong>
+
+                    <p id="resource-reports-text">
+                        国际组织、政府与研究机构报告
+                    </p>
+
+                </div>
+
+
+                <div class="resource-item">
+
+                    <strong id="resource-news">
+                        新闻档案
+                    </strong>
+
+                    <p id="resource-news-text">
+                        新闻报道、采访与历史新闻
+                    </p>
+
+                </div>
+
+
+                <div class="resource-item">
+
+                    <strong id="resource-media">
+                        照片与影像
+                    </strong>
+
+                    <p id="resource-media-text">
+                        历史照片、录像与影像记录
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         底部
+    ========================== -->
+
+    <section class="main-ending reveal">
+
+        <h2 id="ending-title">
+            自由 · 民主 · 人权 · 法治
+        </h2>
+
+        <p id="ending-text">
+            记录历史，保存资料，
+            让更多人有机会了解和思考。
+        </p>
+
+        <div class="ending-links">
+
+            <a href="about.html"
+               id="ending-about">
+                关于本站
+            </a>
+
+            <a href="mailto:forfreedomanddemocracy198964@gmail.com"
+               id="ending-contact">
+                联系我们
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
